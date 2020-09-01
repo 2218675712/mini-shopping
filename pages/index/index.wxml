@@ -1,2 +1,14 @@
-<view class="iconfont icon-shoucang ">首页</view>
-<view class="color">111</view>
+<view>
+    <!--    搜索框-->
+    <SearchInput></SearchInput>
+</view>
+<!--轮播图-->
+<view class="index_swiper">
+    <swiper autoplay indicator-dots>
+        <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
+            <navigator>
+                <image src="{{item.image_src}}" mode="widthFix"></image>
+            </navigator>
+        </swiper-item>
+    </swiper>
+</view>
