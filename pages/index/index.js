@@ -5,9 +5,9 @@ Page({
         // 轮播图数组
         swiperList: [],
         // 导航数据
-        cateList:[],
+        cateList: [],
         // 楼层数据
-        floorList:[]
+        floorList: []
     },
     // 页面开始加载触发事件
     onLoad() {
@@ -19,36 +19,36 @@ Page({
     /**
      * 获取轮播图数据
      */
-    getSwiperList(){
+    getSwiperList() {
         request({
-            url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata'
+            url: '/home/swiperdata'
         }).then((result) => {
             this.setData({
-                swiperList: result.data.message
+                swiperList: result
             })
         })
     },
     /**
      * 获取导航数据
      */
-    getCateList(){
+    getCateList() {
         request({
-            url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/catitems'
+            url: '/home/catitems'
         }).then((result) => {
             this.setData({
-                cateList: result.data.message
+                cateList: result
             })
         })
     },
     /**
      * 获取楼层数据
      */
-    getFloorList(){
+    getFloorList() {
         request({
-            url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/floordata'
+            url: '/home/floordata'
         }).then((result) => {
             this.setData({
-                floorList: result.data.message
+                floorList: result
             })
         })
     }

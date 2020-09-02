@@ -6,12 +6,14 @@
             <view
                     class="menu_item {{index==currentIndex?'active':''}} "
                     wx:for="{{leftMenuList}}"
-                    wx:key="*this">
+                    wx:key="*this"
+            bindtap="handleItemTap"
+            data-index="{{index}}">
                 {{item}}
             </view>
         </scroll-view>
         <!--        右侧商品内容-->
-        <scroll-view scroll-y class="right_content">
+        <scroll-view scroll-y scroll-top="{{scrollTop}}" class="right_content">
             <view
                     class="goods_group"
                     wx:for="{{rightContent}}"
