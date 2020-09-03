@@ -29,11 +29,37 @@ Page({
         pagenum: 1,
         pagesize: 10
     },
+    // 总页数
+    totalPages: 1,
+    // 监听事件加载
     onLoad: function (options) {
         this.QueryParams.cid = options.cid
         this.getGoodsList()
-    },
 
+    },
+    // 页面上滑    滚动条触底
+    onReachBottom() {
+        if (this.QueryParams.pagenum >= this.totalPages) {
+            wx.showToast({
+                title: '没有下一页数据了',
+                icon: 'none',
+                duration: 1000
+            })
+        } else {
+            this.QueryParams.pagenum++
+            this.getGoodsList()
+        }
+    },
+    // 页面下拉刷新
+    onPullDownRefresh() {
+        this.setData({
+            // 原数据和现在的进行拼接
+            goodsList:[]
+        })
+        this.QueryParams.pagenum=1
+        this.getGoodsList()
+    }
+    ,
     /**
      * 处理激活样式
      * @param e 参数
@@ -46,10 +72,20 @@ Page({
             tabs
         })
     },
+    /**
+     * 获取商品列表数据
+     * @returns {Promise<void>}
+     */
     async getGoodsList() {
         const res = await request({url: "/goods/search", data: this.QueryParams})
+        // 获取总条数
+        const total = res.total
+        this.totalPages = Math.ceil(total / this.QueryParams.pagesize)
         this.setData({
-            goodsList: res.goods
+            // 原数据和现在的进行拼接
+            goodsList: [...this.data.goodsList, ...res.goods]
         })
+        // 数据请求回来,关闭加载效果
+        wx.stopPullDownRefresh()
     }
 });
