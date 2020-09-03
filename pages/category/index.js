@@ -1,4 +1,5 @@
-import {request} from '../../request/index.js';
+import {request} from '../../request/index';
+
 Page({
     data: {
         // 左侧菜单数据
