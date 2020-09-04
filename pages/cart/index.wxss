@@ -1,0 +1,7 @@
+.revis e_address_row .address_btn {
+  padding: 20rpx;
+}
+.revis e_address_row .address_btn button {
+  width: 60%;
+}
+/*# sourceMappingURL=index.wxss.map */

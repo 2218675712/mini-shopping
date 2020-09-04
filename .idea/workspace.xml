@@ -19,16 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月03日 21:49:42&#10;商品详情页开始">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tabs/Tabs.wxss.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/goods_detail/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss.map" afterDir="false" />
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月04日 17:05:10&#10;优化动态渲染">
+      <change afterPath="$PROJECT_DIR$/pages/cart/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart/index.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +111,8 @@
       <workItem from="1599122816244" duration="4254000" />
       <workItem from="1599136825121" duration="4071000" />
       <workItem from="1599187750940" duration="3576000" />
-      <workItem from="1599208065928" duration="1488000" />
+      <workItem from="1599208065928" duration="2954000" />
+      <workItem from="1599223781067" duration="5556000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599140992119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2020年09月04日 17:05:10&#10;优化动态渲染">
+      <created>1599210325891</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599210325891</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +213,8 @@
     <MESSAGE value="2020年09月02日 22:59:00&#10;改造接口" />
     <MESSAGE value="2020年09月03日 17:57:44&#10;商品详情页" />
     <MESSAGE value="2020年09月03日 21:49:42&#10;商品详情页开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年09月03日 21:49:42&#10;商品详情页开始" />
+    <MESSAGE value="2020年09月04日 17:05:10&#10;优化动态渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月04日 17:05:10&#10;优化动态渲染" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598880757529">

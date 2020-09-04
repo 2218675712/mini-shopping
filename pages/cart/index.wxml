@@ -1,0 +1,5 @@
+<view class="revise_address_row">
+    <view class="address_btn">
+        <button type="primary" plain bindtap="handleChooseAddress">获取收货地址</button>
+    </view>
+</view>

@@ -4,6 +4,8 @@ Page({
     data: {
         goodsObj: {}
     },
+    // 商品对象
+    GoodsInfo: {},
     onLoad: function (options) {
         const {goods_id} = options
         this.getGoodsDetail(goods_id)
@@ -20,7 +22,9 @@ Page({
                 goods_id
             }
         })
+        this.GoodsInfo = goodsObj
         this.setData({
+            // 赋值指定数据,优化性能
             goodsObj: {
                 goods_name: goodsObj.goods_name,
                 goods_price: goodsObj.goods_price,
@@ -35,5 +39,42 @@ Page({
             }
 
         })
+    },
+    /**
+     * 预览图片
+     */
+    handlePreviewImage(e) {
+        const urls = this.GoodsInfo.pics.map(v => v.pics_mid)
+        // 接受传递过来的图片url
+        const current = e.currentTarget.dataset.url
+        wx.previewImage({
+            urls,
+            current
+        })
+    },
+    /**
+     * 点击加入购物车
+     */
+    handleCartAdd() {
+        // 获取缓存中的购物车数组
+        let cart = wx.getStorageSync("cart") || []
+        // 判断商品是否存在在购物车中
+        let index = cart.findIndex(v => v.goods_id === this.GoodsInfo.goods_id)
+        console.log(index)
+        if (index === -1) {
+            // 不存在 第一次添加
+            this.GoodsInfo.num = 1
+            cart.push(this.GoodsInfo)
+        } else {
+            // 已经存在数据,执行num++
+            cart[index].num++
+        }
+        wx.setStorageSync("cart", cart)
+        wx.showToast({
+            title: "加入成功",
+            icon: "success",
+            mask: true
+        })
+
     }
 });
