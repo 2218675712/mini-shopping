@@ -19,14 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月03日 17:57:44&#10;商品详情页">
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月03日 21:49:42&#10;商品详情页开始">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tabs/Tabs.wxss.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/goods_detail/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_list/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_list/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_list/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_list/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/request/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,9 @@
       <workItem from="1599099579928" duration="5000" />
       <workItem from="1599100632284" duration="2349000" />
       <workItem from="1599122816244" duration="4254000" />
-      <workItem from="1599136825121" duration="3880000" />
+      <workItem from="1599136825121" duration="4071000" />
+      <workItem from="1599187750940" duration="3576000" />
+      <workItem from="1599208065928" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -161,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599127073100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020年09月03日 21:49:42&#10;商品详情页开始">
+      <created>1599140992119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599140992119</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +201,8 @@
     <MESSAGE value="2020年09月02日 21:28:22&#10;分类页面布局" />
     <MESSAGE value="2020年09月02日 22:59:00&#10;改造接口" />
     <MESSAGE value="2020年09月03日 17:57:44&#10;商品详情页" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年09月03日 17:57:44&#10;商品详情页" />
+    <MESSAGE value="2020年09月03日 21:49:42&#10;商品详情页开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月03日 21:49:42&#10;商品详情页开始" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598880757529">
@@ -216,10 +229,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599037215190" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599127076755">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599140997305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599127076755" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599140997305" />
     <state x="467" y="128" width="601" height="568" key="find.popup" timestamp="1599102394740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
