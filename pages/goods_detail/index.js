@@ -60,10 +60,11 @@ Page({
         let cart = wx.getStorageSync("cart") || []
         // 判断商品是否存在在购物车中
         let index = cart.findIndex(v => v.goods_id === this.GoodsInfo.goods_id)
-        console.log(index)
         if (index === -1) {
             // 不存在 第一次添加
             this.GoodsInfo.num = 1
+            // 设置选中状态
+            this.GoodsInfo.checked = true
             cart.push(this.GoodsInfo)
         } else {
             // 已经存在数据,执行num++

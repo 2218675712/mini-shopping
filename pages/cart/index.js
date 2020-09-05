@@ -2,7 +2,8 @@ import {chooseAddress, getSetting, openSetting} from '../../utils/asyncWx'
 
 Page({
     data: {
-        address: {}
+        address: {},
+        cart:[]
     },
     onLoad() {
 
@@ -10,9 +11,12 @@ Page({
     onShow() {
         // 获取缓存中的收货地址
         const address = wx.getStorageSync('address');
+        // 获取缓存中的购物车数据
+        const cart=wx.getStorageSync('cart')
         // 给data赋值
         this.setData({
-            address
+            address,
+            cart
         })
 
 
