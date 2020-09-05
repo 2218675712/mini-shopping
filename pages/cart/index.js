@@ -1,8 +1,20 @@
 import {chooseAddress, getSetting, openSetting} from '../../utils/asyncWx'
 
 Page({
-    data: {},
-    onLoad: function (options) {
+    data: {
+        address: {}
+    },
+    onLoad() {
+
+    },
+    onShow() {
+        // 获取缓存中的收货地址
+        const address = wx.getStorageSync('address');
+        // 给data赋值
+        this.setData({
+            address
+        })
+
 
     },
     /**
@@ -45,9 +57,10 @@ Page({
                 const res3 = await openSetting()
             }
             // 调用收货地址的api
-            const address = await chooseAddress();
+            let address = await chooseAddress();
+            address.all = address.provinceName + address.cityName + address.countyName + address.detailInfo
             // 存入到缓存中
-            wx.setStorageSync("address",address)
+            wx.setStorageSync("address", address)
         } catch (err) {
             console.log(err)
         }
