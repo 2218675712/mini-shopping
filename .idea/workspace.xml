@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月04日 22:27:44&#10;编辑购物车">
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月05日 10:55:43&#10;获取收货地址">
+      <change afterPath="$PROJECT_DIR$/utils/asyncWx.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.js" afterDir="false" />
     </list>
@@ -33,9 +34,9 @@
       <list>
         <option value="Wechat mini program page js file(Page API)" />
         <option value="Wechat mini program page json file(Page API)" />
-        <option value="JavaScript File" />
         <option value="Wechat mini program component js file" />
         <option value="Wechat mini program component json file" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -102,7 +103,8 @@
       <workItem from="1599187750940" duration="3576000" />
       <workItem from="1599208065928" duration="2954000" />
       <workItem from="1599223781067" duration="5788000" />
-      <workItem from="1599272721897" duration="1784000" />
+      <workItem from="1599272721897" duration="1820000" />
+      <workItem from="1599293406891" duration="1787000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599229673504</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2020年09月05日 10:55:43&#10;获取收货地址">
+      <created>1599274552603</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599274552604</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +221,8 @@
     <MESSAGE value="2020年09月03日 21:49:42&#10;商品详情页开始" />
     <MESSAGE value="2020年09月04日 17:05:10&#10;优化动态渲染" />
     <MESSAGE value="2020年09月04日 22:27:44&#10;编辑购物车" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年09月04日 22:27:44&#10;编辑购物车" />
+    <MESSAGE value="2020年09月05日 10:55:43&#10;获取收货地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月05日 10:55:43&#10;获取收货地址" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598880757529">
@@ -239,10 +249,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599037215190" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599229678992">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599274555326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599229678992" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599274555326" />
     <state x="467" y="128" width="601" height="568" key="find.popup" timestamp="1599102394740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
