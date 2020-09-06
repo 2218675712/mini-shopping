@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="商品删除功能" />
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月06日 17:34:15&#10;购物车为空">
+      <change afterPath="$PROJECT_DIR$/pages/pay/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pay/index.wxss.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pay/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pay/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pay/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pay/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/asyncWx.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/asyncWx.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +115,8 @@
       <workItem from="1599293406891" duration="6506000" />
       <workItem from="1599308545442" duration="3918000" />
       <workItem from="1599357327226" duration="4672000" />
-      <workItem from="1599382005496" duration="2254000" />
+      <workItem from="1599382005496" duration="2571000" />
+      <workItem from="1599394004615" duration="4293000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -238,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599384329671</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2020年09月06日 17:34:15&#10;购物车为空">
+      <created>1599384861695</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599384861695</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +297,8 @@
     <MESSAGE value="2020年09月06日 11:01:45&#10;全选反选" />
     <MESSAGE value="2020年09月06日 11:29:14&#10;商品数量编辑" />
     <MESSAGE value="商品删除功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品删除功能" />
+    <MESSAGE value="2020年09月06日 17:34:15&#10;购物车为空" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月06日 17:34:15&#10;购物车为空" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598880757529">
@@ -308,10 +329,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599037215190" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599312530350">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599384865621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599312530350" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599384865621" />
     <state x="467" y="128" width="601" height="568" key="find.popup" timestamp="1599299254836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,4 +1,4 @@
-import {chooseAddress, getSetting, openSetting, showModal} from '../../utils/asyncWx'
+import {chooseAddress, getSetting, openSetting, showModal, showToast} from '../../utils/asyncWx'
 
 Page({
     data: {
@@ -128,6 +128,25 @@ Page({
         // 进行修改数量
         cart[index].num += operation
         this.setCart(cart)
+    },
+    /**
+     * 点击结算功能
+     */
+    async handlePay() {
+        const {address,totalNum} = this.data
+        // 判断收货地址
+        if (!address.userName) {
+            await showToast({title: '您还没有选择收货地址'})
+            return
+        }
+        // 判断选购商品
+        if (totalNum===0){
+            await showToast({title: '您还没有选购商品'})
+            return
+        }
+        wx.navigateTo({
+            url:'/pages/pay/index'
+        })
     }
 
 });

@@ -54,12 +54,32 @@ export const openSetting = () => {
  * @returns {Promise<unknown>}
  */
 export const showModal = ({title, content}) => {
-    return new Promise((resolve,reject) => {
+    return new Promise((resolve, reject) => {
         wx.showModal({
             title: title,
             content: content,
             success: (res) => {
                 resolve(res)
+            },
+            fail: (err) => {
+                reject(err)
+            }
+        })
+    })
+}
+
+/**
+ * promise形式    showToast
+ * @param title     提示内容
+ * @returns {Promise<unknown>}
+ */
+export const showToast = ({title}) => {
+    return new Promise((resolve, reject) => {
+        wx.showToast({
+            title: title,
+            icon: "none",
+            success: (result) => {
+                resolve(result)
             },
             fail: (err) => {
                 reject(err)
