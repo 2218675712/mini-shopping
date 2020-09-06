@@ -1,4 +1,4 @@
-import {chooseAddress, getSetting, openSetting} from '../../utils/asyncWx'
+import {chooseAddress, getSetting, openSetting, showModal} from '../../utils/asyncWx'
 
 Page({
     data: {
@@ -25,32 +25,6 @@ Page({
      * 获取收货地址
      */
     async handleChooseAddress() {
-        // 获取用户授权设置
-        /*        wx.getSetting({
-                    success: (result) => {
-                        // 获取收货地址授权状态
-                        let scopeAddress = result.authSetting['scope.address']
-                        // 如果是成功或者未定义,则获取收货地址
-                        if (scopeAddress === true || scopeAddress === undefined) {
-                            wx.chooseAddress({
-                                success: (result1) => {
-                                }
-                            })
-                        } else {
-                            // 取消状态,调用已经授权的权限,让用户重新授权
-                            wx.openSetting({
-                                success: (result2) => {
-                                    wx.chooseAddress({
-                                        success: (result3) => {
-                                        }
-                                    })
-                                }
-                            })
-                        }
-                    }
-                })*/
-
-
         try {
             // 获取权限状态
             const res1 = await getSetting();
@@ -132,18 +106,28 @@ Page({
      * 商品数量编辑功能
      * @param e 操作符
      */
-    handleItemNumEdit(e) {
+    async handleItemNumEdit(e) {
         // 获取传递过来的参数
         const {operation, id} = e.currentTarget.dataset
         // 获取购物车数组
         let {cart} = this.data
         // 找到需要修改的商品的索引
         const index = cart.findIndex(v => v.goods_id === id)
+        // 判断是否要执行删除
+        if (cart[index].num === 1 && operation === -1) {
+            const res = await showModal({title: '删除', content: '是否确认删除?'})
+            if (res.confirm) {
+                cart.splice(index, 1)
+                this.setCart(cart)
+
+            } else if (res.cancel) {
+                console.log('用户点击取消')
+            }
+            return
+        }
         // 进行修改数量
         cart[index].num += operation
         this.setCart(cart)
-
-
     }
 
 });

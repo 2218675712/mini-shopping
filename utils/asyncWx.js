@@ -47,3 +47,23 @@ export const openSetting = () => {
         })
     })
 }
+/**
+ * promise形式    openSetting
+ * @param title     弹窗标题
+ * @param content   弹窗内容
+ * @returns {Promise<unknown>}
+ */
+export const showModal = ({title, content}) => {
+    return new Promise((resolve,reject) => {
+        wx.showModal({
+            title: title,
+            content: content,
+            success: (res) => {
+                resolve(res)
+            },
+            fail: (err) => {
+                reject(err)
+            }
+        })
+    })
+}
