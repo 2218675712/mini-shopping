@@ -127,6 +127,23 @@ Page({
         cart.forEach(v => v.checked = allChecked)
         this.setData(cart)
 
+    },
+    /**
+     * 商品数量编辑功能
+     * @param e 操作符
+     */
+    handleItemNumEdit(e) {
+        // 获取传递过来的参数
+        const {operation, id} = e.currentTarget.dataset
+        // 获取购物车数组
+        let {cart} = this.data
+        // 找到需要修改的商品的索引
+        const index = cart.findIndex(v => v.goods_id === id)
+        // 进行修改数量
+        cart[index].num += operation
+        this.setCart(cart)
+
+
     }
 
 });
