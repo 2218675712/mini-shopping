@@ -114,6 +114,19 @@ Page({
         })
         // 把购物车数据重新设置回data中和缓存
         wx.setStorageSync('cart', cart)
+    },
+    /**
+     * 全选反选
+     */
+    handleItemAllCheck() {
+        // 获取data数据
+        let {cart, allChecked} = this.data
+        // 全选取反
+        allChecked = !allChecked
+        // 循环修改cart数组中的商品选中状态
+        cart.forEach(v => v.checked = allChecked)
+        this.setData(cart)
+
     }
 
 });

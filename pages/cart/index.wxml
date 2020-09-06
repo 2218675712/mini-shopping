@@ -42,7 +42,7 @@
 </view>
 <view class="footer_tool">
     <view class="all_chk_wrap">
-        <checkbox-group>
+        <checkbox-group bind:change="handleItemAllCheck">
             <checkbox checked="{{allChecked}}">全选</checkbox>
         </checkbox-group>
     </view>
