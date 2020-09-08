@@ -2,6 +2,11 @@ let ajaxTimes = 0
 export const request = (params) => {
     // 每发送一次请求,让计数器++
     ajaxTimes++
+    // url中是否带有 /my/ 请求   如果有是私有的路径   带上header token
+    let header = {...params.header}
+    if (params.url.includes('/my/')) {
+        header["Authorization"] = wx.getStorageSync('token')
+    }
     wx.showLoading({
         title: "加载中",
         mask: true
@@ -12,6 +17,7 @@ export const request = (params) => {
     return new Promise((resolve, reject) => {
         wx.request({
             ...params,
+            header: header,
             url: baseUrl + params.url,
             success: (result) => {
                 resolve(result.data.message)

@@ -19,17 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月06日 17:34:15&#10;购物车为空">
-      <change afterPath="$PROJECT_DIR$/pages/pay/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/index.wxss.map" afterDir="false" />
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月06日 21:37:01&#10;支付页面数据展示">
+      <change afterPath="$PROJECT_DIR$/pages/user/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/user/index.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/pay/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pay/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/pay/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pay/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/request/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/asyncWx.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/asyncWx.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +125,14 @@
       <workItem from="1599308545442" duration="3918000" />
       <workItem from="1599357327226" duration="4672000" />
       <workItem from="1599382005496" duration="2571000" />
-      <workItem from="1599394004615" duration="4293000" />
+      <workItem from="1599394004615" duration="4315000" />
+      <workItem from="1599464191671" duration="8000" />
+      <workItem from="1599464676582" duration="3568000" />
+      <workItem from="1599481423050" duration="3654000" />
+      <workItem from="1599486490939" duration="597000" />
+      <workItem from="1599532655807" duration="1561000" />
+      <workItem from="1599552035143" duration="5477000" />
+      <workItem from="1599569394662" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -258,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599384861695</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2020年09月06日 21:37:01&#10;支付页面数据展示">
+      <created>1599399430928</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599399430928</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +321,8 @@
     <MESSAGE value="2020年09月06日 11:29:14&#10;商品数量编辑" />
     <MESSAGE value="商品删除功能" />
     <MESSAGE value="2020年09月06日 17:34:15&#10;购物车为空" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年09月06日 17:34:15&#10;购物车为空" />
+    <MESSAGE value="2020年09月06日 21:37:01&#10;支付页面数据展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月06日 21:37:01&#10;支付页面数据展示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598880757529">
@@ -345,9 +369,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1599037211406" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599299230846">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599468441511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599299230846" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599468441511" />
   </component>
 </project>
