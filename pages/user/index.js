@@ -1,12 +1,14 @@
 Page({
     data: {
-        userinfo:{}
+        userinfo:{},
+        collectNums:0
     },
     onLoad: function (options) {
 
     },
     onShow() {
         const userinfo=wx.getStorageSync('userinfo')
-        this.setData({userinfo})
+        const collect=wx.getStorageSync('collect')||[]
+        this.setData({userinfo,collectNums:collect.length})
     }
 });

@@ -19,13 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月09日 11:26:21&#10;全部订单完成">
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月09日 15:45:24&#10;收藏商品">
+      <change afterPath="$PROJECT_DIR$/pages/collect/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/collect/index.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods_detail/index.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_detail/index.wxss.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/collect/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/collect/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/collect/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/collect/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/collect/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/collect/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/collect/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/collect/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +128,7 @@
       <workItem from="1599619867068" duration="863000" />
       <workItem from="1599620755591" duration="2085000" />
       <workItem from="1599622879702" duration="493000" />
-      <workItem from="1599635077147" duration="1740000" />
+      <workItem from="1599635077147" duration="4983000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -295,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599622010043</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="2020年09月09日 15:45:24&#10;收藏商品">
+      <created>1599637533376</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599637533376</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +349,8 @@
     <MESSAGE value="2020年09月08日 21:12:48&#10;个人中心静态页面" />
     <MESSAGE value="2020年09月08日 22:16:07&#10;订单查询" />
     <MESSAGE value="2020年09月09日 11:26:21&#10;全部订单完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年09月09日 11:26:21&#10;全部订单完成" />
+    <MESSAGE value="2020年09月09日 15:45:24&#10;收藏商品" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月09日 15:45:24&#10;收藏商品" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="201" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599620642766">
@@ -390,9 +401,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1599037211406" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599571670966">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599641084783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599571670966" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599641084783" />
   </component>
 </project>
