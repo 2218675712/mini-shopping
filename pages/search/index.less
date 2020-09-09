@@ -1,0 +1,42 @@
+
+page {
+  background-color: #dedede;
+  padding: 20rpx;
+}
+
+.search_row {
+  height: 60rpx;
+  display: flex;
+
+  input {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    padding-left: 30rpx;
+  }
+
+  button {
+    width: 110rpx !important;
+    height: 100%;
+    font-size: 26rpx;
+    padding: 0;
+    margin: 0 10rpx !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.search_content {
+  margin-top: 30rpx;
+  .search_item {
+    background-color: #fff;
+    font-size: 26rpx;
+    padding: 20rpx 10rpx;
+    border-bottom: 1px solid #cccccc;
+    //显示省略号
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
