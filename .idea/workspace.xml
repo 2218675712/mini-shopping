@@ -19,10 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月09日 21:59:47&#10;搜索中心">
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="取消按钮功能实现">
+      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.wxss.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/feedback/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/feedback/index.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/feedback/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/feedback/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/feedback/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/feedback/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +46,10 @@
       <list>
         <option value="Wechat mini program page js file(Page API)" />
         <option value="Wechat mini program page json file(Page API)" />
-        <option value="Wechat mini program component js file" />
-        <option value="Wechat mini program component json file" />
         <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="Wechat mini program component js file" />
+        <option value="Wechat mini program component json file" />
       </list>
     </option>
   </component>
@@ -123,7 +135,12 @@
       <workItem from="1599622879702" duration="493000" />
       <workItem from="1599635077147" duration="5070000" />
       <workItem from="1599653164306" duration="4312000" />
-      <workItem from="1599705274784" duration="1874000" />
+      <workItem from="1599705274784" duration="3303000" />
+      <workItem from="1599749513875" duration="601000" />
+      <workItem from="1599793363698" duration="463000" />
+      <workItem from="1599807412777" duration="4388000" />
+      <workItem from="1599827199432" duration="8450000" />
+      <workItem from="1599878143457" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -314,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599660001310</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="取消按钮功能实现">
+      <created>1599707605863</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599707605863</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +358,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2020年08月31日 22:17:29&#10;初始化样式" />
     <MESSAGE value="2020年09月01日 11:59:50&#10;轮播图" />
     <MESSAGE value="2020年09月01日 23:20:49&#10;楼层完成" />
     <MESSAGE value="2020年09月02日 21:28:22&#10;分类页面布局" />
@@ -359,7 +382,8 @@
     <MESSAGE value="2020年09月09日 15:45:24&#10;收藏商品" />
     <MESSAGE value="2020年09月09日 16:48:35&#10;商品收藏完成" />
     <MESSAGE value="2020年09月09日 21:59:47&#10;搜索中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年09月09日 21:59:47&#10;搜索中心" />
+    <MESSAGE value="取消按钮功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="取消按钮功能实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="201" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599620642766">
@@ -410,9 +434,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1599037211406" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599641084783">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599816836993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599641084783" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599816836993" />
   </component>
 </project>
