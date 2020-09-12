@@ -33,7 +33,8 @@ Page({
     totalPages: 1,
     // 监听事件加载
     onLoad: function (options) {
-        this.QueryParams.cid = options.cid
+        this.QueryParams.cid = options.cid||""
+        this.QueryParams.query = options.query||""
         this.getGoodsList()
 
     },

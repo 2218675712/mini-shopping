@@ -19,21 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="取消按钮功能实现">
-      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UpImg/UpImg.wxss.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/feedback/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/feedback/index.wxss.map" afterDir="false" />
+    <list default="true" id="16a62d10-ec52-4dd0-9e52-659a07198133" name="默认的" comment="2020年09月12日 11:26:11&#10;意见反馈提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/feedback/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/feedback/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/feedback/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/feedback/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/user/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods_list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods_list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +129,7 @@
       <workItem from="1599793363698" duration="463000" />
       <workItem from="1599807412777" duration="4388000" />
       <workItem from="1599827199432" duration="8450000" />
-      <workItem from="1599878143457" duration="2036000" />
+      <workItem from="1599878143457" duration="4001000" />
     </task>
     <task id="LOCAL-00001" summary="2020年08月31日 21:22:37&#10;小程序项目初始化">
       <created>1598880172627</created>
@@ -338,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599707605863</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2020年09月12日 11:26:11&#10;意见反馈提交">
+      <created>1599881186821</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599881186821</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +354,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2020年09月01日 11:59:50&#10;轮播图" />
     <MESSAGE value="2020年09月01日 23:20:49&#10;楼层完成" />
     <MESSAGE value="2020年09月02日 21:28:22&#10;分类页面布局" />
     <MESSAGE value="2020年09月02日 22:59:00&#10;改造接口" />
@@ -383,7 +378,8 @@
     <MESSAGE value="2020年09月09日 16:48:35&#10;商品收藏完成" />
     <MESSAGE value="2020年09月09日 21:59:47&#10;搜索中心" />
     <MESSAGE value="取消按钮功能实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="取消按钮功能实现" />
+    <MESSAGE value="2020年09月12日 11:26:11&#10;意见反馈提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年09月12日 11:26:11&#10;意见反馈提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="201" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599620642766">
@@ -418,10 +414,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599037215190" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599660104820">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599881209079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599660104820" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599881209079" />
     <state x="467" y="128" width="601" height="568" key="find.popup" timestamp="1599658135654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -434,9 +430,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1599037211406" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599816836993">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599881271675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599816836993" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599881271675" />
   </component>
 </project>
